@@ -9,6 +9,8 @@ import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 import ConversionPopup from '@/components/ConversionPopup';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <main className="min-h-screen">

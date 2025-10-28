@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
+export const dynamic = 'force-dynamic';
+
 interface QuizAnswer {
   question: string;
   answer: string;
